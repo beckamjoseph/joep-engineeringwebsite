@@ -28,6 +28,7 @@
 
   <main>
     <section id="home" class="hero">
+      <button class="hero-image-trigger" type="button" data-full="images/homepage/two.png" data-title="Project discussion" data-description="Professional project discussion in a meeting room." aria-label="View project discussion image in full"><img class="hero-image" src="images/homepage/two.png" alt="Professional project discussion in a meeting room" fetchpriority="high"></button>
       <div class="hero-overlay"></div>
       <div class="container hero-content">
         <p class="eyebrow">ENGINEERING • CONSULTANCY • QUALITY</p>
@@ -49,6 +50,9 @@
         <div>
           <p class="eyebrow">ABOUT US</p>
           <h2>Professional consultancy with a practical engineering mindset.</h2>
+          <button class="about-image" type="button" data-full="images/homepage/one.png" data-title="Professional presentation" data-description="Professional representative addressing a gathering." aria-label="View professional presentation image in full">
+            <img src="images/homepage/one.png" alt="JOEP representative addressing a professional gathering" loading="lazy">
+          </button>
         </div>
         <div class="about-copy">
           <p>
@@ -66,6 +70,60 @@
             <div><strong>02</strong><span>Client-centered</span></div>
             <div><strong>03</strong><span>Results-driven</span></div>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="construction" class="section service-feature construction-feature">
+      <div class="container">
+        <div class="service-feature-heading">
+          <div>
+            <p class="eyebrow">CONSTRUCTION SERVICES</p>
+            <h2>Built environments, thoughtfully delivered.</h2>
+          </div>
+          <p>Practical construction services for essential infrastructure and the spaces that support everyday operations.</p>
+        </div>
+        <div class="specialty-grid four-up">
+          <article><span>01</span><h3>Roads</h3><p>Road construction services for project and infrastructure requirements.</p></article>
+          <article><span>02</span><h3>Buildings</h3><p>Building construction support for functional, well-planned spaces.</p></article>
+          <article><span>03</span><h3>Electrical</h3><p>Electrical works incorporated within construction project needs.</p></article>
+          <article><span>04</span><h3>Borehole</h3><p>Borehole services to support water access requirements.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="laboratory" class="section section-laboratory">
+      <div class="container service-split">
+        <div class="service-split-copy">
+          <p class="eyebrow">LABORATORY CONSULTANCY</p>
+          <h2>Supporting laboratories from setup to continuity.</h2>
+          <p>Structured consultancy and supply support for laboratory environments, equipment, and materials.</p>
+        </div>
+        <div class="specialty-grid lab-grid">
+          <article><span>01</span><h3>Equipment Supply</h3></article>
+          <article><span>02</span><h3>Equipment Installation</h3></article>
+          <article><span>03</span><h3>Maintenance</h3></article>
+          <article><span>04</span><h3>Chemicals Supply</h3></article>
+          <article><span>05</span><h3>Laboratory Materials Supply</h3></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="environment" class="section service-feature environment-feature">
+      <div class="container">
+        <div class="service-feature-heading">
+          <div>
+            <p class="eyebrow">ENVIRONMENTAL MANAGEMENT</p>
+            <h2>Clearer planning for environmental responsibilities.</h2>
+          </div>
+          <p>Environmental management services designed around assessment, planning, water, waste, and pollution considerations.</p>
+        </div>
+        <div class="specialty-grid environmental-grid">
+          <article><span>01</span><h3>Environmental Impact Assessment <abbr title="Environmental Impact Assessment">(EIA)</abbr></h3><p>Assessment support to inform project planning and environmental considerations.</p></article>
+          <article><span>02</span><h3>Waste Management</h3><p>Waste management planning and support for operational requirements.</p></article>
+          <article><span>03</span><h3>Environmental Management Plan</h3><p>Practical planning for the environmental aspects of project activities.</p></article>
+          <article><span>04</span><h3>Water Treatment and Supply</h3><p>Services supporting water treatment and supply requirements.</p></article>
+          <article><span>05</span><h3>Pollution Control</h3><p>Support for identifying and managing pollution-control considerations.</p></article>
         </div>
       </div>
     </section>
@@ -151,6 +209,31 @@
           <div><span>03</span><div><h3>Project Coordination</h3><p>Project planning, monitoring, reporting and stakeholder coordination.</p></div></div>
           <div><span>04</span><div><h3>Capacity Development</h3><p>Training programs designed around identified technical and organizational gaps.</p></div></div>
         </div>
+        <div class="work-showcase">
+          <button class="work-tall" type="button" data-full="images/automobile consultancy/two.png" data-title="Automobile consultancy" data-description="Technical vehicle inspection and discussion."><img src="images/automobile consultancy/two.png" alt="Technical vehicle inspection and discussion" loading="lazy"><span>Automobile consultancy</span></button>
+          <button type="button" data-full="images/capacity byuilding/two.png" data-title="Training and capacity building" data-description="Professional training session in progress."><img src="images/capacity byuilding/two.png" alt="Professional training session in progress" loading="lazy"><span>Training and capacity building</span></button>
+          <button type="button" data-full="images/painting/one.png" data-title="Vehicle painting and upholstery" data-description="Finished vehicle exterior at a water-tank location."><img src="images/painting/one.png" alt="Finished white utility vehicle at a water-tank location" loading="lazy"><span>Vehicle painting and upholstery</span></button>
+        </div>
+        <div class="gallery-heading">
+          <div>
+            <p class="eyebrow">OUR WORK IN FOCUS</p>
+            <h2>Professional work, seen up close.</h2>
+          </div>
+          <p>Select any image to view it in full and move through the collection.</p>
+        </div>
+        <div class="project-gallery" aria-label="JOEP project gallery">
+          <button class="gallery-item gallery-wide" type="button" data-full="images/homepage/three.png" data-title="Professional project engagement" data-description="Professional engagement and project discussion."><img src="images/homepage/three.png" alt="Professionals during a project engagement" loading="lazy"><span>Project engagement</span></button>
+          <button class="gallery-item" type="button" data-full="images/automobile consultancy/one.png" data-title="Technical vehicle session" data-description="Technical vehicle inspection and discussion."><img src="images/automobile consultancy/one.png" alt="Technical vehicle inspection session" loading="lazy"><span>Automobile consultancy</span></button>
+          <button class="gallery-item" type="button" data-full="images/automobile consultancy/three.png" data-title="Technical review" data-description="Technical review in a workshop setting."><img src="images/automobile consultancy/three.png" alt="Team reviewing vehicle components" loading="lazy"><span>Technical review</span></button>
+          <button class="gallery-item gallery-tall" type="button" data-full="images/automobile consultancy/four.png" data-title="Technical team session" data-description="Professional team at a technical facility."><img src="images/automobile consultancy/four.png" alt="Professional technical team at a facility" loading="lazy"><span>Technical team session</span></button>
+          <button class="gallery-item" type="button" data-full="images/capacity byuilding/ome.png" data-title="Continuous improvement training" data-description="Capacity-building session focused on continuous improvement."><img src="images/capacity byuilding/ome.png" alt="Group at a continuous improvement training session" loading="lazy"><span>Capacity building</span></button>
+          <button class="gallery-item" type="button" data-full="images/capacity byuilding/three.png" data-title="Professional development" data-description="Participants during a professional development programme."><img src="images/capacity byuilding/three.png" alt="Professionals seated during a training programme" loading="lazy"><span>Professional development</span></button>
+          <button class="gallery-item" type="button" data-full="images/capacity byuilding/four.png" data-title="Training facilitation" data-description="A facilitated learning session."><img src="images/capacity byuilding/four.png" alt="Facilitator speaking at a training programme" loading="lazy"><span>Training facilitation</span></button>
+          <button class="gallery-item gallery-tall" type="button" data-full="images/capacity byuilding/five.png" data-title="Training presentation" data-description="Presentation during a professional capacity-building event."><img src="images/capacity byuilding/five.png" alt="Presenter speaking at a professional event" loading="lazy"><span>Training presentation</span></button>
+          <button class="gallery-item" type="button" data-full="images/capacity byuilding/six.png" data-title="Workshop facilitation" data-description="Facilitated workshop with participants."><img src="images/capacity byuilding/six.png" alt="Facilitator and workshop participants" loading="lazy"><span>Workshop facilitation</span></button>
+          <button class="gallery-item" type="button" data-full="images/painting/two.png" data-title="Vehicle finishing" data-description="Finished vehicle exterior from a rear perspective."><img src="images/painting/two.png" alt="Finished white utility vehicle from the rear" loading="lazy"><span>Vehicle finishing</span></button>
+          <button class="gallery-item" type="button" data-full="images/painting/three.png" data-title="Vehicle exterior finish" data-description="Detailed exterior presentation of a finished utility vehicle."><img src="images/painting/three.png" alt="Finished white utility vehicle exterior" loading="lazy"><span>Vehicle exterior finish</span></button>
+        </div>
       </div>
     </section>
 
@@ -186,6 +269,14 @@
       <p>© <span id="year"></span> JOEP Engineering & Consultancy Limited. All rights reserved.</p>
     </div>
   </footer>
+
+  <div class="lightbox" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Image viewer">
+    <button class="lightbox-close" type="button" aria-label="Close image viewer">×</button>
+    <button class="lightbox-nav lightbox-prev" type="button" aria-label="Previous image">←</button>
+    <figure class="lightbox-figure"><img class="lightbox-image" src="" alt=""><figcaption><strong class="lightbox-title"></strong><span class="lightbox-description"></span></figcaption></figure>
+    <button class="lightbox-nav lightbox-next" type="button" aria-label="Next image">→</button>
+    <div class="lightbox-count" aria-live="polite"></div>
+  </div>
 
   <script src="script.js"></script>
 </body>
